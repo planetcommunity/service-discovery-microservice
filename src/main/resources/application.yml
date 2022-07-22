@@ -1,10 +1,10 @@
 spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
   application:
     name: planet-eureka-server
-
-server:
-  port: 8761
-
 eureka:
   client:
     fetch-registry: false
