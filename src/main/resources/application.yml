@@ -3,9 +3,11 @@ spring:
     loadbalancer:
       ribbon:
         enabled: false
-  application:
-    name: planet-eureka-server
 eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+server:
+  port: 8761
+
+
